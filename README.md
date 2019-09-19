@@ -1,1 +1,1 @@
-Empire is a mew cryptocurrency
+Empire is a new cryptocurrency
