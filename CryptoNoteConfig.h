@@ -29,14 +29,14 @@ namespace parameters {
   const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30; //
 
   // MONEY_SUPPLY - total number coins to be generated
-  const uint64_t MONEY_SUPPLY                                  = (uint64_t)(2100000000000); //-1
+  const uint64_t MONEY_SUPPLY                                  = (uint64_t)(10000000); //-1
   const uint32_t MANDATORY_TRANSACTION                         = 0;
   const uint32_t KILL_HEIGHT                                   = 0;
   const uint64_t TAIL_EMISSION_REWARD                          = 0;
   const size_t CRYPTONOTE_COIN_VERSION                         = 0;
   const bool ZAWY_DIFFICULTY_V2                          	   = 0;
   const unsigned EMISSION_SPEED_FACTOR                         = 20; // was 18
-  const uint64_t GENESIS_BLOCK_REWARD                          = 10000;
+  const uint64_t GENESIS_BLOCK_REWARD                          = 1000;
   static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
   const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
