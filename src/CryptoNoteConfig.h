@@ -109,7 +109,7 @@ namespace parameters {
   const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(2640));
 
 
-const char     CRYPTONOTE_NAME[]                             = "intucoin";
+const char     CRYPTONOTE_NAME[]                             = "Empire";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101128f6e2f5ff1cc0d95bf80839501c07d79fcb80726f3ca8cdc094b0e2d89dfd3";
 
 const uint32_t GENESIS_NONCE                                 = 70;
@@ -145,10 +145,9 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "140.82.29.104:17236",
-   "45.77.160.124:17236",
-   "77.93.206.165:17236",
-   "45.77.178.125:17236"
+   "40.128.237.141:510125"
+
+   
 };
 
 struct CheckpointData {
